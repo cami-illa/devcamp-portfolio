@@ -19,6 +19,6 @@ class PortfoliosController < ApplicationController
         format.json { render json:  @portfolio_item.errors, status: :unprocessable_entity }
       end
     end
-end
+    end
   
 end
