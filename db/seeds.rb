@@ -18,12 +18,12 @@ puts "5 skills created"
 
 9.times do |portfolio_item|
     Portfolio.create!(
-        title: "Portfolio title: #{portfolio item}",
+        title: "Portfolio title: #{portfolio_item}",
         subtitle: "My great service",
         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan varius ligula sollicitudin vestibulum. Nulla lorem nunc, malesuada ac velit non, tempor vestibulum lacus. Ut eu aliquet orci. Proin scelerisque, diam id imperdiet auctor, eros tortor interdum urna, id faucibus mauris nibh quis tellus. Etiam fringilla lectus fringilla ex cursus, at cursus ex semper. Curabitur ornare magna rutrum enim ornare tristique eu eu lectus. Etiam vitae pulvinar nisl. Mauris eu tellus eu ipsum bibendum tincidunt.",
         main_image: "http://via.placeholder.com/600x400",
-        thumb_image: "http://via.placeholder.com/350x200" ,
-        )
-    end
+        thumb_image: "http://via.placeholder.com/350x200",
+    )
+end
     
 puts "9 portfolio items created"
