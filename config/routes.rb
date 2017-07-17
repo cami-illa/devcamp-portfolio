@@ -6,7 +6,7 @@
   get 'contact', to: 'pages#contact'
 
 
-  resources :blogsrake 
+  resources :blogs
   
   root to: 'pages#home'
 end
