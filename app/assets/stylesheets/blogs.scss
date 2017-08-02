@@ -1,26 +1,9 @@
 // Place all the styles related to the Blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body{
-background: #efea9b;
-  background:  linear-gradient(to bottom right, #e5daef, #a694b7, #6a5182, #512d72, #542e75, #3c165e);
-min-height: 100%;
-background-size: cover;
-background-repeat: no-repeat;
-color: #2b2820;
-font-family: "Copperplate Gothic Light";
-}
-h1{
-    text-align: center;
-}
-.cell1 {
-    text-align: center;
-    margin: 0 auto;
-}
-table {
-    margin: 0 auto;
-}
-.cell2 {
-    text-align: center;
-    margin: 0 auto;
+
+@import "_nav"; 
+
+.bottom a {
+    color: white;
 }
